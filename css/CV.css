@@ -1,0 +1,86 @@
+.titre
+{
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(bank.jpg);
+    border: 3px teal double;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.534);
+    height: 70px;
+}
+.intitulé
+{
+    color:teal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    background-image: url(bank.jpg);
+    border: 3px teal double;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.534);
+    height: 70px;
+}
+h2
+{
+    text-align: center;
+    color: teal;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bank.jpg);
+    border: 3px teal double;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.534);
+    height: 50px;
+}
+ul
+{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+ul>li{
+    list-style: none;
+}
+strong
+{
+    color: rgba(108, 55, 255, 0.849);
+    font-weight: bold;
+}
+span
+{
+    color: rgb(3, 0, 153);
+}
+em
+{
+    font-style: italic;
+    color: rgba(108, 55, 255, 0.849);
+}
+body
+{
+    background-color: rgb(175, 201, 250);
+    background-repeat: no-repeat;
+    background-image: url(ciel.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    padding-bottom: 5rem;
+    background-position: center;
+}
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px)
+{
+}
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+
+}
+
+/* Sur les téléviseurs */
+@media tv
+{
+}
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait)
+{
+}
